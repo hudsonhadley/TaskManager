@@ -31,3 +31,4 @@ bin/
 tasks.txt
 .idea/
 TaskManager.iml
+TaskTester.java
