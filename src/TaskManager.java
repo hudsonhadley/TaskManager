@@ -131,7 +131,6 @@ public class TaskManager
 
         Scanner fileScanner = new Scanner(file);
 
-
         while (fileScanner.hasNextLine())
         {
             String line = fileScanner.nextLine();
@@ -154,9 +153,6 @@ public class TaskManager
                 dateString += line.charAt(index);
                 index++;
             }
-
-            dateString = dateString.replace('/', ' ');
-            Scanner dateScanner = new Scanner(dateString);
 
             try
             {
